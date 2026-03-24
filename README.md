@@ -11,7 +11,7 @@ Welcome to our Molecular Dynamics of Argon project! This project simulates the m
 
 Firstly, run this cell to load all the necessary modules you'll need 
 
-```
+```Python
 import molecular_dynamics_argon as mda 
 import observables as obs
 from IPython.display import display, Math
