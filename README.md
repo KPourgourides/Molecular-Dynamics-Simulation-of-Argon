@@ -60,7 +60,7 @@ The outputs correspond to:
 - the last time step in which rescaling took place (`int`)
 
 > [!NOTE]
-> The variables `rescale_force` and `rescale_period` have to do with the velocity rescaling. For more information, you can take a look at the [report](https://gitlab.kwant-project.org/computational_physics/projects/Project1_kmitsidi_kpourgourides/-/blob/master/report/REPORT.pdf?ref_type=heads). For this run, these values will suffice.
+> The variables `rescale_force` and `rescale_period` have to do with the velocity rescaling. For more information, you can take a look at the [report](https://github.com/KPourgourides/Molecular-Dynamics-Simulation-of-Argon/blob/main/report/REPORT.pdf). For this run, these values will suffice.
 
 ## Results & analysis of observables
 
@@ -117,7 +117,7 @@ display(Math(fr"p = ({pressure:.3f} \pm {pressure_err:.3f})\, \epsilon/\sigma^3"
 
 #### Pair correlation function
 
-Next, we visualize the pair correlation function of the system! This plot has different shape for the different states of matter. You can read more about this in the [report](https://gitlab.kwant-project.org/computational_physics/projects/Project1_kmitsidi_kpourgourides/-/blob/master/report/REPORT.pdf?ref_type=heads)!
+Next, we visualize the pair correlation function of the system! This plot has different shape for the different states of matter. You can read more about this in the [report](https://github.com/KPourgourides/Molecular-Dynamics-Simulation-of-Argon/blob/main/report/REPORT.pdf)!
 
 $$ g(r) = \frac{2V}{N(N-1)} \frac{\langle n(r) \rangle}{4 \pi r^2 \Delta r} $$
 
